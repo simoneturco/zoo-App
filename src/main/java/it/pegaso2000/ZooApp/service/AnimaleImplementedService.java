@@ -3,9 +3,12 @@ package it.pegaso2000.ZooApp.service;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Service;
+
 import it.pegaso2000.ZooApp.model.Animale;
 import it.pegaso2000.ZooApp.repository.AnimaleRepository;
 
+@Service
 public class AnimaleImplementedService implements AnimaleService {
 	
 	private AnimaleRepository animaleRepository;
