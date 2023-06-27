@@ -5,6 +5,8 @@ public class AnimaleDto {
 	private Long id;
 	private String nome;
 	
+	private Long razza;
+	
 	public AnimaleDto() {
 		// TODO Auto-generated constructor stub
 	}
@@ -28,6 +30,14 @@ public class AnimaleDto {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public Long getRazza() {
+		return razza;
+	}
+
+	public void setRazza(Long razza) {
+		this.razza = razza;
 	}
 
 }

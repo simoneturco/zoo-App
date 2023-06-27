@@ -6,6 +6,8 @@ public class AccessorioDto {
 	private String descrizione;
 	private Integer prezzo;
 	
+	private Long specie;
+	
 	public AccessorioDto() {
 		// TODO Auto-generated constructor stub
 	}
@@ -38,6 +40,14 @@ public class AccessorioDto {
 
 	public void setPrezzo(Integer prezzo) {
 		this.prezzo = prezzo;
+	}
+
+	public Long getSpecie() {
+		return specie;
+	}
+
+	public void setSpecie(Long specie) {
+		this.specie = specie;
 	}
 	
 }
